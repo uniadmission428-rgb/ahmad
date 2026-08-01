@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products | Shegentix Surgical</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">S</div>
+      <div class="logo-text">
+        <span class="brand">SHEGENTIX <span>SURGICAL</span></span>
+        <small>PRECISION BEYOND STANDARDS</small>
+      </div>
+    </a>
+    <nav class="nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="dropdown active">
+          <a href="products.html">Products <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="products.html?cat=dental">Dental Instruments</a></li>
+            <li><a href="products.html?cat=general">General Surgery</a></li>
+            <li><a href="products.html?cat=orthopedic">Orthopedic Instruments</a></li>
+            <li><a href="products.html?cat=ent">ENT Instruments</a></li>
+          </ul>
+        </li>
+        <li><a href="manufacturing.html">Manufacturing</a></li>
+        <li><a href="quality.html">Quality</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a href="contact.html" class="btn btn-gold"><span>Request a Quote</span></a>
+      <button class="mobile-toggle"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Our Products</h1>
+    <p>A comprehensive range of premium surgical instruments across multiple specialities.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Products</div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <div class="filter-tabs">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="dental">Dental</button>
+      <button data-filter="general">General Surgery</button>
+      <button data-filter="orthopedic">Orthopedic</button>
+      <button data-filter="ent">ENT</button>
+      <button data-filter="ophthalmic">Ophthalmic</button>
+      <button data-filter="gynecology">Gynecology</button>
+      <button data-filter="veterinary">Veterinary</button>
+      <button data-filter="oem">OEM / Private Label</button>
+    </div>
+
+    <div class="products-grid" id="productsGrid">
+
+      <div class="product-card" data-category="dental">
+        <div class="p-img"><img src="images/dental-explorer.jpg" alt="Dental Explorer"></div>
+        <div class="p-body"><h5>Dental Explorer</h5><span>Dental Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="dental">
+        <div class="p-img"><img src="images/extraction-forceps.jpg" alt="Extraction Forceps"></div>
+        <div class="p-body"><h5>Extraction Forceps</h5><span>Dental Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="general">
+        <div class="p-img"><img src="images/mayo-scissors.jpg" alt="Mayo Scissors"></div>
+        <div class="p-body"><h5>Mayo Scissors</h5><span>General Surgery</span></div>
+      </div>
+
+      <div class="product-card" data-category="general">
+        <div class="p-img"><img src="images/hemostatic-forceps.jpg" alt="Hemostatic Forceps"></div>
+        <div class="p-body"><h5>Hemostatic Forceps</h5><span>General Surgery</span></div>
+      </div>
+
+      <div class="product-card" data-category="orthopedic">
+        <div class="p-img"><img src="images/bone-cutting-forceps.jpg" alt="Bone Cutting Forceps"></div>
+        <div class="p-body"><h5>Bone Cutting Forceps</h5><span>Orthopedic Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="orthopedic">
+        <div class="p-img"><img src="images/bone-holding-forceps.jpg" alt="Bone Holding Forceps"></div>
+        <div class="p-body"><h5>Bone Holding Forceps</h5><span>Orthopedic Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="ent">
+        <div class="p-img"><img src="images/nasal-speculum.jpg" alt="Nasal Speculum"></div>
+        <div class="p-body"><h5>Nasal Speculum</h5><span>ENT Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="ent">
+        <div class="p-img"><img src="images/ear-forceps.jpg" alt="Ear Forceps"></div>
+        <div class="p-body"><h5>Ear Forceps</h5><span>ENT Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="ophthalmic">
+        <div class="p-img"><img src="images/micro-forceps.jpg" alt="Micro Forceps"></div>
+        <div class="p-body"><h5>Micro Forceps</h5><span>Ophthalmic Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="ophthalmic">
+        <div class="p-img"><img src="images/eye-speculum.jpg" alt="Eye Speculum"></div>
+        <div class="p-body"><h5>Eye Speculum</h5><span>Ophthalmic Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="gynecology">
+        <div class="p-img"><img src="images/vaginal-speculum.jpg" alt="Vaginal Speculum"></div>
+        <div class="p-body"><h5>Vaginal Speculum</h5><span>Gynecology Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="gynecology">
+        <div class="p-img"><img src="images/uterine-sound.jpg" alt="Uterine Sound"></div>
+        <div class="p-body"><h5>Uterine Sound</h5><span>Gynecology Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="veterinary">
+        <div class="p-img"><img src="images/hoof-trimmer.jpg" alt="Hoof Trimmer"></div>
+        <div class="p-body"><h5>Hoof Trimmer</h5><span>Veterinary Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="veterinary">
+        <div class="p-img"><img src="images/castration-instruments.jpg" alt="Castration Instruments"></div>
+        <div class="p-body"><h5>Castration Instruments</h5><span>Veterinary Instruments</span></div>
+      </div>
+
+      <div class="product-card" data-category="oem">
+        <div class="p-img"><img src="images/custom-branded-kits.jpg" alt="Custom Branded Kits"></div>
+        <div class="p-body"><h5>Custom Branded Kits</h5><span>OEM & Private Label</span></div>
+      </div>
+
+      <div class="product-card" data-category="oem">
+        <div class="p-img"><img src="images/private-label-packaging.jpg" alt="Private Label Packaging"></div>
+        <div class="p-body"><h5>Private Label Packaging</h5><span>OEM & Private Label</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--gray-light); text-align:center;">
+  <div class="container">
+    <h2 class="section-title">Don't See What You're Looking For?</h2>
+    <p class="subtitle">We offer custom manufacturing and OEM solutions tailored to your exact specifications. Get in touch with our team.</p>
+    <a href="contact.html" class="btn btn-gold" style="margin-top:15px;">Request Custom Quote</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h5>Shegentix Surgical</h5>
+        <p>Manufacturer & Global Exporter of Premium Surgical Instruments.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div>
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="manufacturing.html">Manufacturing</a></li>
+          <li><a href="quality.html">Quality Assurance</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Product Categories</h5>
+        <ul>
+          <li><a href="products.html?cat=dental">Dental Instruments</a></li>
+          <li><a href="products.html?cat=general">General Surgery</a></li>
+          <li><a href="products.html?cat=orthopedic">Orthopedic Instruments</a></li>
+          <li><a href="products.html?cat=ent">ENT Instruments</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact Us</h5>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-location-dot"></i> Sui Gas Road, Gujranwala, Punjab, Pakistan</li>
+          <li><i class="fa-solid fa-phone"></i> +92 322-5575272</li>
+          <li><i class="fa-solid fa-envelope"></i> info@shegentixsurgical.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Shegentix Surgical. All Rights Reserved.</p>
+      <div><a href="#">Privacy Policy</a><a href="#">Terms & Conditions</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const buttons = document.querySelectorAll('.filter-tabs button');
+  const cards = document.querySelectorAll('.product-card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.getAttribute('data-filter');
+
+      cards.forEach(card => {
+        card.style.display = (filter === 'all' || card.getAttribute('data-category') === filter) ? 'block' : 'none';
+      });
+    });
+  });
+
+  document.querySelector('.mobile-toggle').addEventListener('click', () => {
+    document.getElementById('mainNav').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
